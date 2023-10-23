@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ul-navbar {
+  list-style-type: none;
+  background-color: red;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+}
+
+.ul-navbar li  {
+  float: left;
+  margin: 2px 4px;
+}
+
+.ul-navbar li a  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 14px;
+  margin: 7px;
+  text-decoration: none;
+}
+
+.ul-navbar li:hover a {
+  background-color: gray;
+  transition: .9s;
+  border-radius: 6px;
+}
+
+.h1 h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 15px 16px;
+  position: relative;
+  top: 45vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Mengatur container menjadi tumpukan kolom */
+  justify-content: flex-start; /* Mengatur gambar ke atas secara vertikal */
+  align-items: center; /* Mengatur gambar ke tengah secara horizontal */
+  height: 100vh; /* Anda dapat menyesuaikan tinggi sesuai kebutuhan Anda */
+}
+
+.container img {
+  max-width: 100%; /* Untuk memastikan gambar tetap dalam batas container */
+  max-height: 100%; /* Untuk pxpx;
+  }
+
+  .container img {
+   width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* CSS untuk ukuran layar lebih kecil lagi */
+  .h1 h1 {
+      margin: 20px;
+  
+  }
+  .ul-navbar li a {
+    margin: 2px 3px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+  
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,52 @@
+* {
+    background-color: gray;
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for form labels */
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styles for form input fields */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  .contact-form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button on hover */
+  .contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for success message */
+  .contact-form .success-message {
+    color: white;
+    font-weight: bold;
+  }
+
+  
+ 
